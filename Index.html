@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="fotos/978bf262-9f1a-4dc3-bb55-e04d00739252.jfif"></a>
+        <h1>CAR WASH TORRES  </h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="fotos/vl.jfif" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>CAR WASH TORRES </h2>
+                <p>Nuestra misión es brindarte un servicio de calidad siempre dando los mejores precios </p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="fotos/aspi.jfif" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 1</h2>
+                        <p>lavado de carro mas motor a solo 100 pesos los miercoles .</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="fotos/lanta%202c.jfif" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 2</h2>
+                        <p>servicio gratis de aire solo los dias sabado </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>servicio uno: $30</li>
+                    <li>servicio dos: $25</li>
+                    <li>servicio tre: $35</li>
+                    <li>servicio cuatro: desde $180</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="fotos/lvc.jfif" alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="fotos/castrol.png" alt="Marca 1">
+                <img src="fotos/cera.jfif" alt="Marca 2">
+                <img src="fotos/god.jfif" alt="Marca 3">
+                <img src="fotos/kasr.png" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+  
+        <div class="redes-sociales">
+             <a href="#" target="_blank">carwtorrs</a> |
+            <a href="#" target="_blank">crstrrs</a> |
+            <a href="#" target="_blank">crswtorr</a>
+        </div>
+        <pContacto:carwtorrs@gmail.com></p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

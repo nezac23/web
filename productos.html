@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo2.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de productos </h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="fotos/1.jfif" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>lavado de carro normal </h2>
+                    <p>este lavado consta de una sola lavada normal incluye aspirtado y lavado de chasis </p>
+                    <p class="precio">$60.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="fotos/seco.jfif" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>lavado en seco </h2>
+                    <p>costa de aspirar y limpiar el polvo de todo el carro ademas de detallar las llantas  </p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="fotos/motro%201.jfif" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>lavado de motor completo </h2>
+                    <p>consta de lavar toda la parte del motor utilizando desengrasantes y demas productos de limpieza ademas deun lavado normal de carro </p>
+                    <p class="precio">$180.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="fotos/m2.jfif" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>lavado de motor simple </h2>
+                    <p>consta se solo lava el motor del carro usando desengrasantes y productos de limieza </p>
+                    <p class="precio">$140.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="fotos/aaspirado.jfif" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>aspirado de carro </h2>
+                    <p>consta de aspirar completamente el carro incluyendo limpiar la cajuela </p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="fotos/llanta%201.jfif" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>calibracion de llanta </h2>
+                    <p>consta de calibrar la llanta del carro </p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="fotos/lanta%202c.jfif" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>servicio de aire </h2>
+                    <p>consta en calibrar y llenar de aire la llanta del carro</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="fotos/puli.jfif" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>encerado del carro </h2>
+                    <p>consta de pulir y encerar el carro por cocmpleto con producctos de limpeza </p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        
+        <div class="redes-sociales">
+            <a href="#" target="_blank">carwtorrs</a> |
+            <a href="#" target="_blank">crstrrs</a> |
+            <a href="#" target="_blank">crswtorr</a>
+        </div>
+        <p>Contacto:carwtorrs@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
